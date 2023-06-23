@@ -1,5 +1,4 @@
 ---
-title: "Welcome to my website!"
+title: "NCRR's Anti-Discrimination Working Group"
 ---
 
-You're up and running!
