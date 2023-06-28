@@ -1,4 +1,38 @@
 ---
 title: "NCRR's Anti-Discrimination Working Group"
+output:
+  html_document:
+    toc_depth: 1 # Deapth of headers to include in the table of contents
+    toc_float: false
+    includes:
+      before_body: [include_header.html, include_header_navpage.html] # Insert arbitrary comstum content before the body of the output.
 ---
 
+```{js, echo=FALSE}
+$("#ADWGHeader").removeClass("alwaysShrunk");
+$("#pageContent").removeClass("standardPadding");
+```
+
+
+<!--html_preserve-->
+
+<div id="homeContent">
+  <div class="band full navyblue first rightText">
+    <div class="bandContent vCenter">
+      <div class="blurb">
+        <div>Your data tells a story. Tell it with R Markdown. Turn your analyses into high quality documents, reports, presentations and dashboards.</div>
+      </div>
+    </div>
+    <img class="imageOne" src="images/Plain_logo.png"/>
+  </div>
+
+  <div class="band full gray1 second leftText">
+    <div class="bandContent vCenter">
+      <div class="blurb">
+        <div>R Markdown documents are fully reproducible. Use a productive <a href="https://bookdown.org/yihui/rmarkdown/notebook.html">notebook interface</a> to weave together narrative text and code to produce elegantly formatted output. Use <a href="https://bookdown.org/yihui/rmarkdown/language-engines.html">multiple languages</a> including R, Python, and SQL.</div>
+      </div>
+    </div>
+    <img class="imageTwo" src="images/bandTwo2.png"/>
+  </div>
+
+<!--/html_preserve-->
